@@ -1,0 +1,46 @@
+body {
+    background-color: #0049B7;
+}
+
+select {
+    border-radius: 3%;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+.bandSettings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.colors {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+
+}
+
+.result p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
